@@ -30,3 +30,5 @@ Check admin password for jenkins:
 ```
 $ printf $(kubectl get secret --namespace jenkins-project jenkins -o jsonpath="{.data.jenkins-admin-password}" | base64 --decode);echo
 ```
+
+Full tutorial: https://lvthillo.com/helm-persistent-jenkins-dynamic-slaves-minikube/
