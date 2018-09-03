@@ -11,7 +11,7 @@
 Master:
   Name: jenkins-master
   Image: "jenkins/jenkins"
-  ImageTag: "2.127"
+  ImageTag: "2.141"
   ImagePullPolicy: "Always"
   Component: "jenkins-master"
   UseSecurity: true
@@ -34,9 +34,9 @@ Master:
     - 0.0.0.0/0
   # List of plugins to be install during Jenkins master start
   InstallPlugins:
-    - kubernetes:1.7.1
+    - kubernetes:1.12.4
     - workflow-aggregator:2.5
-    - workflow-job:2.21
+    - workflow-job:2.24
     - credentials-binding:1.16
     - git:3.9.1
     - greenballs:1.15
