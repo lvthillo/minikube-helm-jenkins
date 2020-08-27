@@ -80,7 +80,6 @@ master:
   JCasC:
     enabled: false
     defaultConfig: false
-    pluginVersion: "1.27"
     supportPluginVersion: "1.18"
     configScripts: {}
   customInitContainers: []
